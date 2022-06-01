@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.rec-arrow-left {
+  margin-left: 70px;
+}
+
+.rec-arrow-right {
+  margin-right: 70px;
+}
+
+.rec.rec-arrow {
+  border-radius: 0;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.carousel__first {
+  display: flex;
+}
+
+.carousel__content {
+  width: 675px;
+  height: 269px;
+  background: #194d44;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+  margin-left: 50px;
+}
+
+.carousel__column {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.abbie__p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.carousel__lorem {
+  margin-top: 30px;
+}
+
+.carousel__text_1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px 0 0 0;
+}
+
+.carousel__text_2 {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px 0 0 0;
+}
+
+.carousel__text_3 {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px 0 0 0;
+}
+
+/*RESPONSIVENESS*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .abbie__img {
+    width: 198px;
+    height: 198px;
+  }
+
+  .abie__p {
+    font-size: 18px;
+  }
+  .column__img {
+    width: 40px;
+  }
+
+  .tom__img {
+    width: 198px;
+    height: 198px;
+  }
+
+  .taylor__img {
+    width: 198px;
+    height: 198px;
+  }
+
+  .carousel__content {
+    width: 496px;
+    height: 198px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .rec-arrow-left {
+    margin-left: 20px;
+    margin-top: 74px;
+  }
+
+  .rec-arrow-right {
+    margin-right: 20px;
+    margin-top: 74px;
+  }
+
+  .rec.rec-arrow {
+    border-radius: 0;
+  }
+  /* round buttons on hover */
+  .rec.rec-arrow:hover {
+    border-radius: 50%;
+  }
+  /* hide disabled buttons */
+  .rec.rec-arrow:disabled {
+    visibility: hidden;
+  }
+
+  .carousel__text_1 {
+    line-height: 24px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 40px;
+  }
+
+  .carousel__text_2 {
+    line-height: 24px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 40px;
+  }
+
+  .carousel__text_3 {
+    line-height: 24px;
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 40px;
+  }
+
+  .carousel__lorem {
+    margin-top: 15px;
+  }
+
+  .column__img {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+  .carousel__container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: relative;
+  }
+
+  .carousel__content {
+    width: 328px;
+    height: 404px;
+    border-radius: 8px;
+    margin-left: 0px;
+  }
+
+  .carousel__first {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 73px;
+  }
+
+  .abbie__img {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: -120px;
+    left: 30px;
+  }
+
+  .tom__img {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: -120px;
+    left: 30px;
+  }
+
+  .taylor__img {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: -120px;
+    left: 30px;
+  }
+
+  .abbie__p {
+    font-size: 14px;
+  }
+
+  .column__img {
+    width: 30px;
+  }
+
+  .carousel__column {
+    margin-top: 76px;
+  }
+
+  .rec-arrow-left {
+    display: none;
+  }
+  .rec-arrow-right {
+    display: none;
+  }
+
+  .carousel__lorem {
+    margin-top: 11px;
+  }
+
+  .carousel__text_1 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    padding-left: 10px;
+  }
+
+  .carousel__text_2 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    padding-left: 10px;
+  }
+  .carousel__text_3 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 10px;
+    padding-left: 10px;
+  }
+}
